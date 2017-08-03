@@ -1,0 +1,13 @@
+[package]
+authors = ["nathanieltan <nathaniel98.tan@gmail.com>"]
+name = "murder_lord"
+version = "0.1.0"
+[dependencies]
+gfx_core = "*"
+piston = "*"
+piston2d-graphics = "*"
+piston2d-opengl_graphics = "*"
+piston2d-sprite = "*"
+piston_window = "*"
+pistoncore-glutin_window = "*"
+texture = "*"

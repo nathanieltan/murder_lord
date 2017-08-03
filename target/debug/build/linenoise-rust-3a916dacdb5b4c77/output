@@ -1,0 +1,79 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+PROFILE = Some("debug")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "native/" "--std=c++0x" "-o" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/wcwidth.o" "-c" "native/wcwidth.cpp"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+PROFILE = Some("debug")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "native/" "--std=c++0x" "-o" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/ConvertUTF.o" "-c" "native/ConvertUTF.cpp"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+PROFILE = Some("debug")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "native/" "--std=c++0x" "-o" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/linenoise.o" "-c" "native/linenoise.cpp"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crs" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/liblinenoise.a" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/wcwidth.o" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/ConvertUTF.o" "/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out/native/linenoise.o"
+exit code: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=static=linenoise
+cargo:rustc-link-search=native=/home/nathaniel/Documents/murder_lord/target/debug/build/linenoise-rust-3a916dacdb5b4c77/out
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=stdc++
